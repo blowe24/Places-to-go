@@ -1,8 +1,8 @@
 import psycopg2
+from config import DB_CONFIG
 
 # connect to Postgresql server
-conn = psycopg2.connect(host="localhost", dbname='postgres', user='postgres',
-                        password='123', port=5432)
+conn = psycopg2.connect(**DB_CONFIG)
 
 cur = conn.cursor()
 
