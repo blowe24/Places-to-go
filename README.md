@@ -1,4 +1,4 @@
-# Places-to-go
+# globetable
 **CLI app built with python and postgresql to track places to go such as restaurants**
 
 - This CLI app connects to a local postgresql server to store the data
